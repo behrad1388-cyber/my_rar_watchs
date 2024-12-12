@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Watch Blog</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #d4af37;
+            text-align: center;
+            padding: 20px;
+            font-size: 2.5em;
+            position: relative;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: #1a1a1a;
+            border-radius: 50%;
+            position: absolute;
+            left: 1860px;
+            top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 70px;
+            height: 70px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            overflow: hidden;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            width: 18%;
+            margin: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+
+        .card-text {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1a1a1a;
+            color: #d4af37;
+            font-size: 1em;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">  <!-- اینجا می‌توانید لوگو خود را قرار دهید -->
+        </div>
+        My Rare Watch Collection
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="watch1.jpg" alt="Zagros">
+            <div class="card-content">
+                <h2 class="card-title">Zagros</h2>
+                <p class="card-text">A timeless piece with exquisite craftsmanship and attention to detail.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="watch2.jpg" alt="Q&Q">
+            <div class="card-content">
+                <h2 class="card-title">Q&Q</h2>
+                <p class="card-text">A luxurious watch that blends elegance and sophistication seamlessly.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="watch3.jpg" alt="Golden Oyster">
+            <div class="card-content">
+                <h2 class="card-title">Golden Oyster</h2>
+                <p class="card-text">A bold design for those who appreciate fine artistry and innovation.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="watch4.jpg" alt="Two-time Olympic champion">
+            <div class="card-content">
+                <h2 class="card-title">Two-time Olympic champion</h2>
+                <p class="card-text">An impeccable blend of traditional craftsmanship and modern style.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="watch5.jpg" alt="HAYLOU Solar Plus">
+            <div class="card-content">
+                <h2 class="card-title">HAYLOU Solar Plus</h2>
+                <p class="card-text">A masterpiece of horology, designed to captivate and inspire.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 My Rare Watch Collection
+    </footer>
+</body>
+</html>
+
+
